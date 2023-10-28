@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-20">
         <a
-          href="https://twitter.com/nutlope/status/1704894145003741611"
+          href=""
           target="_blank"
           rel="noreferrer"
           className="border rounded-2xl py-1 px-4 text-slate-500 text-sm mb-5 hover:scale-105 transition duration-300 ease-in-out"
@@ -41,12 +41,12 @@ const Home: NextPage = () => {
         <div className="flex justify-center space-x-4">
           <a
             className="bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-gray-100 border"
-            href="https://www.roomgpt.io/"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
             <button onClick={() => va.track('RoomGPT link clicked')}>
-              Check out roomGPT
+              
             </button>
           </a>
 
